@@ -141,10 +141,10 @@ end)
 local LibName = "RaresUI"
 
 function Kavo:ToggleUI()
-    if game.CoreGui.RaresUI.Enabled then
-        game.CoreGui.RaresUI.Enabled = false
+    if game.CoreGui[LibName].Enabled then
+        game.CoreGui[LibName].Enabled = false
     else
-        game.CoreGui.RaresUI.Enabled = true
+        game.CoreGui[LibName].Enabled = true
     end
 end
 
